@@ -1,0 +1,688 @@
+.text-base {
+    color: #0D1566 !important;
+}
+.bg-base
+{
+    background-color: #020633 !important;
+}
+.pointer {
+    cursor: pointer;
+}
+.a-decor-contact
+{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+.a-decor-contact:hover {
+    color: #ac9ee6;
+}
+/* Google Font */
+.moul-regular {
+    font-family: "Moul", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.moulpali-regular {
+    font-family: "Moulpali", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-link.active{
+    color: #ffffff; /* Change color to indicate active state */
+
+}
+/* Padding */
+.pad {
+    padding: 0 15vw ;
+}
+@media (max-width:750px) {
+    .pad {
+        padding: 0 10vw;
+    }
+}
+@media (max-width:500px) {
+    .pad {
+        padding: 0 5vw;
+    }
+}
+@media (max-width:400px) {
+    .pad {
+        padding: 0 1vw;
+    }
+}
+/* Navigation */
+.bg-navbar {
+    background: #0D1566;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+  }
+/* Home Panel */
+/* Home Panel */
+.bg {
+    position: relative;
+    height: 40vh;
+}
+
+.bg-image {
+    background: url('../img/night-fitness-gym-room-interior-sport-workout-vector-illustration-weight-exercise-equipment-gymnasium-treadmill-elliptical-trainer-cardio-studio-with-cityscape-moonlight_107791-23143.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+/* Exercises */
+.img-exercise {
+    width: 15vw;
+}
+/* @media (max-width:1000px)  {
+    .img-exercise{
+      width: 150px;}
+  } */
+/* Appointment */
+.formbold-mb-5 {
+    margin-bottom: 20px;
+}
+.formbold-pt-3 {
+    padding-top: 12px;
+}
+.formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+.formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+}
+.formbold-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    margin-bottom: 12px;
+}
+.formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.formbold-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+}
+.formbold-form-input:focus {
+    border-color: #0D1566;
+    ;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+.formbold-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background: #0D1566;
+    ;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+}
+.formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+.formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.w-full {
+    width: 100%;
+}
+@media (min-width: 540px) {
+    .sm\:w-half {
+        width: 50%;
+    }
+}
+/* About Us */
+/* .bg-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/441090340_887939996680239_8991933528816176275_n.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  } */
+.img-about {
+    width: 350px;
+}
+.text-start-center {
+    text-align: start;
+}
+@media (max-width:991px) {
+    .img-about {
+        width: 300px;
+    }
+    .text-start-center {
+        text-align: center;
+    }
+}
+@media (max-width:400px) {
+    .img-about {
+        width: 250px;
+    }
+}
+@media (max-width:350px) {
+    .img-about {
+        width: 200px;
+    }
+}
+.a-decor {
+    color: #0D1566;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+.a-decor:hover {
+    color: #797878;
+}
+/* Timetable */
+.classes-timetable {
+    padding-top: 0;
+}
+.classes-timetable .nav-controls {
+    text-align: center;
+    margin-bottom: 42px;
+}
+.classes-timetable .nav-controls ul li {
+    list-style: none;
+    font-size: 16px;
+    color: #0D1566;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 48px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.classes-timetable .nav-controls ul li.active {
+    color: #0D1566;
+}
+/* .classes-timetable .nav-controls ul li:hover {
+        color: #f15d44;
+    } */
+.classes-timetable .nav-controls ul li:last-child {
+    margin-right: 0;
+}
+.schedule-table.filtering .ts-item {
+    opacity: 0;
+}
+.schedule-table.filtering .ts-item.show {
+    opacity: 1;
+}
+.schedule-table table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+}
+.schedule-table table thead tr th {
+    font-size: 16px;
+    color: #0D1566;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 25px 0;
+    background: #f0f0f0;
+}
+.schedule-table table tbody tr {
+    border-top: 1px solid #e5e5e5;
+}
+.schedule-table table tbody tr td {
+    width: 146px;
+    background: #ffffff;
+    border-right: 1px solid #e5e5e5;
+    padding: 18px 0;
+    position: relative;
+    z-index: 1;
+}
+.schedule-table table tbody tr td.ts-item {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.schedule-table table tbody tr td:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#eb3c5a), to(#f67831));
+    background: -o-linear-gradient(left, #eb3c5a, #f67831);
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+    content: "";
+    opacity: 0;
+    z-index: -1;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+/* .schedule-table table tbody tr td.hover-bg:hover h6 {
+        color: #ffffff;
+    }
+    .schedule-table table tbody tr td.hover-bg:hover span {
+        color: #ffffff;
+    }
+    .schedule-table table tbody tr td.hover-bg:hover .trainer-name {
+        color: #ffffff;
+    }
+    .schedule-table table tbody tr td.hover-bg:hover:after {
+        opacity: 1;
+    } */
+.schedule-table table tbody tr td.workout-time {
+    font-size: 16px;
+    color: #0D1566;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.schedule-table table tbody tr td h6 {
+    font-weight: 600;
+    color: #0D1566;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.schedule-table table tbody tr td span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0D1566;
+}
+.schedule-table table tbody tr td .trainer-name {
+    font-size: 14px;
+    color: #0D1566;
+}
+.classes-timetable .nav-controls ul li {
+    margin-right: 10px;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.section-title h2 {
+    color: #0D1566;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* Login */
+.p-base {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+.a-base {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+.button-base {
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+.button-base:active {
+	transform: scale(0.95);
+}
+.button-base:focus {
+	outline: none;
+}
+.button-base.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+.form-base {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+.input-base {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+.input-signup {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 139px !important;
+}
+.container-login {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 400px;
+}
+.form-container-login {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	transition: all 0.6s ease-in-out;
+}
+.sign-in-container-login {
+	left: 0;
+	width: 50%;
+	z-index: 2;
+}
+.container-login.right-panel-active .sign-in-container-login {
+	transform: translateX(100%);
+}
+.sign-up-container-login {
+	left: 0;
+	width: 50%;
+	opacity: 0;
+	z-index: 1;
+}
+.container-login.right-panel-active .sign-up-container-login {
+	transform: translateX(100%);
+	opacity: 1;
+	z-index: 5;
+	animation: show 0.6s;
+}
+@keyframes show {
+	0%, 49.99% {
+		opacity: 0;
+		z-index: 1;
+	}
+	50%, 100% {
+		opacity: 1;
+		z-index: 5;
+	}
+}
+.overlay-container-login {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	transition: transform 0.6s ease-in-out;
+	z-index: 100;
+}
+.container-login.right-panel-active .overlay-container-login{
+	transform: translateX(-100%);
+}
+.overlay {
+	background:url('../img/301966516_478615407612702_3118827037890183413_n.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-position: 0 0;
+	color: #FFFFFF;
+	position: relative;
+	left: -100%;
+	height: 100%;
+	width: 200%;
+  	transform: translateX(0);
+	transition: transform 0.6s ease-in-out;
+}
+.container-login.right-panel-active .overlay {
+  	transform: translateX(50%);
+}
+.overlay-panel {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	top: 0;
+	height: 100%;
+	width: 50%;
+	transform: translateX(0);
+	transition: transform 0.6s ease-in-out;
+}
+.overlay-left {
+	transform: translateX(-20%);
+}
+.container-login.right-panel-active .overlay-left {
+	transform: translateX(0);
+}
+.overlay-right {
+	right: 0;
+	transform: translateX(0);
+}
+.container-login.right-panel-active .overlay-right {
+	transform: translateX(20%);
+}
+.social-container-login {
+	margin: 10px 0;
+}
+.social-container-login a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+}
+
+  /* .modal-content {
+    background-color: transparent !important;
+    border: none !important;
+  }
+
+  .modal-header, .modal-body {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none !important;
+  } */
+  .containers{
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .containers .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  .containers .title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+  }
+  .content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 12px 0 12px 0;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 3 - 20px);
+  }
+  form .user-details .input-boxs{
+    margin-bottom: 15px;
+    width: calc(100% / 1 - 20px);
+  }
+  form .input-boxs span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-boxs input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .user-details .input-boxs select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  form .select-box{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+   form .button{
+     height: 45px;
+     margin: 35px 0
+   }
+   form .button input{
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     background: #757fec;
+   }
+   .user-details .input-box input.name{
+    height: 45px;
+    width: 30%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  form .user-details2 .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 4 - 10px);
+  }
+  .user-details2 .input-box input.name{
+    height: 45px;
+    width: 30%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .user-details2 .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .content form .user-details2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  .details
+  {
+    font-size: 15px;
+  }
